@@ -1,0 +1,709 @@
+*{
+	margin:0;
+	padding:0;
+	/* -webkit-user-select: none; /* Safari 3.1+ */
+    /* -moz-user-select: none; /* Firefox 2+ */
+    /* -ms-user-select: none; /* IE 10+ */
+    /* user-select: none; /* Standard syntax */
+    /* -khtml-user-select: none; */
+    /* -o-user-select: none; */
+}
+
+body{
+	position: relative;
+}
+
+/*----------- Header Start Here -----------*/
+
+header{
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:999;
+}
+
+.header-top{
+	background:#ce5757;
+	color:white;
+	line-height:30px;
+}
+
+#phone-top{
+	float:left;
+}
+
+#email-top{
+	display:inline-block;
+	margin-left:10px;
+}
+
+#header-top-button li{
+	float:right;
+	list-style:none;
+	padding:0px 10px;
+}
+
+#header-top-button li a{
+	color:white;
+}
+
+.sticky{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+}
+
+#slider-img{
+	height:100vh;
+}
+
+.slider-title{
+	display:table;
+	text-align:center;
+	height:100%;
+	width:100%;
+}
+
+.table-cell{
+	display:table-cell;
+	vertical-align:middle;
+	color:red;
+	text-shadow: 1px 1px white;
+	font-weight: bold;
+}
+
+/* Bootstrap Navbar Start Here */
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover{
+	background:red;
+	color:white;
+}
+
+#home-menu a{
+	background:blue;
+	color:white;
+}
+
+.navbar-inverse{
+	border:none;
+	background:#e7e8e9;
+}
+
+.navbar-inverse a{
+	color:white;
+}
+
+.navbar-inverse .navbar-brand{
+	color:#ff0000;
+}
+
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover{
+	color:green;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color:black;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{
+	color:green;
+}
+
+.navbar-inverse .navbar-toggle{
+	border:2px solid green;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+	background:green;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar{
+	background:black;
+}
+
+/* Bootstrap Navbar End Here */
+
+/* Owl Carousel CSS Edit Start Here */
+
+.owl-nav{
+	position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+	color:#ce5757;
+	font-size:40px;
+	width:100%;
+}
+
+.owl-prev{
+	float:left;
+}
+
+.owl-next{
+	float:right;
+}
+
+.owl-dots{
+	position: absolute;
+}
+
+/* Owl Carousel CSS Edit End Here */
+
+/*----------- Header End Here -----------*/
+
+/*----------- About Me Section Start Here -----------*/
+
+#about-me{
+	background-size:cover;
+	min-height:100vh;
+	height:100%;
+	width:100%;
+	background-position: center center;
+	background-color:#dedfe1;
+	padding:70px 0px;
+}
+
+#profile{
+	position:relative;
+	overflow:hidden;
+	width:100%;
+	background:black;
+}
+
+#profile img{
+	width:100%;
+}
+
+#profile h1{
+	position:absolute;
+	margin:0;
+	padding:0;
+	width:100%;
+	font-weight:bold;
+	color:white;
+	text-shadow: 0 2px 5px rgba(0,0,0,0.5);
+	top:-200px;
+	transform:translateY(-50%);
+	transition: .3s;
+}
+
+#profile:hover h1{
+	top:50%;
+	transform:translateY(-50%);
+}
+
+#profile:hover ul{
+	transform:translateY(-50px);
+}
+
+#profile-share-button{
+	width:100%;
+	position:absolute;
+	transform:translateY(50px);
+	transition: .3s;
+}
+
+#profile-share-button li{
+	list-style:none;
+	float:left;
+	width:20%;
+}
+
+#profile-share-button li a{
+	display:block;
+	line-height:50px;
+	text-align:center;
+	font-size:30px;
+	background:white;
+}
+
+#profile-share-button li:nth-child(1) a{
+	color:#3b5998;
+}
+
+#profile-share-button li:nth-child(2) a{
+	color:#55acee;
+}
+
+#profile-share-button li:nth-child(3) a{
+	color:#dd4b39;
+}
+
+#profile-share-button li:nth-child(4) a{
+	color:#00aff0;
+}
+
+#profile-share-button li:nth-child(5) a{
+	color:#01aef2;
+}
+
+#profile-share-button li:nth-child(1) a:hover{
+	background:#3b5998;
+	color:white;
+}
+
+#profile-share-button li:nth-child(2) a:hover{
+	background:#55acee;
+	color:white;
+}
+
+#profile-share-button li:nth-child(3) a:hover{
+	background:#dd4b39;
+	color:white;
+}
+
+#profile-share-button li:nth-child(4) a:hover{
+	background:#00aff0;
+	color:white;
+}
+
+#profile-share-button li:nth-child(5) a:hover{
+	background:#01aef2;
+	color:white;
+}
+
+#about-me-content{
+	font-family:Nyala;
+	font-size:20px;
+}
+
+#text-list{
+	margin-left:20px;	
+}
+
+#text-list a{
+	color:black;
+}
+
+/* Progress bar start here */
+			.main{
+        		margin: 50px auto;
+        		width: 60%;
+        	}
+        	.progressBar{
+        		position: relative;
+        		width: 100%;
+        		height: 40px;
+        		background: #eeeeee;
+        		margin-bottom: 20px;
+        		border-radius: 5px;
+        		box-shadow: 0 1px 2px #222;
+        	}
+        	.title{
+        		position: absolute;
+        		width: 130px;
+        		height: 40px;
+        		padding-left: 10px;
+        		float: left;
+        		font-weight: bold;
+        		color: #fff;
+        		line-height: 2.5;
+        		z-index: 10000;
+        		border-top-left-radius: 5px;
+        		border-bottom-left-radius: 5px;
+        		box-shadow: 2px 0 2px #333;
+        		text-shadow: 1px 1px 1px #000;
+        	}
+        	.progress_value{
+        		position: relative;
+        		float: right;
+        		padding-right: 10px;
+        		line-height: 2.5;
+        		font-weight: bold;
+        		color: #455a64;
+        		z-index: 10000;
+        	}
+        	.progress{
+        		height: 40px;
+        		position: absolute;
+        		border-radius: 5px;
+        		box-shadow: 2px 0 2px #555;
+        	}
+        	.wordpressColor{
+        		background: #21759b;
+        	}
+        	.graphicColor{
+        		background: #db4437;
+        	}
+        	.webColor{
+        		background: #009688;
+        	}
+        	.seoColor{
+        		background: #1b5e20;
+        	}
+        	.emailColor{
+        		background: #ff6f00;
+        	}
+        	.wordpress{
+        		background: #2075cf;
+        	}
+        	.graphic{
+        		background: red;
+        	}
+        	.web{
+        		background: #08c6a2;
+        	}
+        	.seo{
+        		background: #66bb6a;
+        	}
+        	.email{
+        		background: #ffca28;
+        	}
+        	@media (max-width: 720px) {
+        		.main{
+        			width: 90%;
+        		}
+        	}
+			
+/* Progress bar end here */
+
+/*----------- About Me Section Start Here -----------*/
+
+/*----------- Skill Section Start Here -----------*/
+
+#skills{
+	background-size:cover;
+	min-height:100vh;
+	height:100%;
+	width:100%;
+	background-position: center center;
+	background-color:#f2f2f2;
+	padding:70px 0px;
+}
+
+.skills-section h1{
+	text-align:center;
+}
+
+.skills-section p{
+	text-align:justify;
+}
+
+#skills-icon{
+	text-align:center;
+	font-size:100px;
+}
+
+/*----------- Skill Section End Here -----------*/
+
+/*----------- Portfolio Section Start Here -----------*/
+
+#portfolio{
+	background-size:cover;
+	min-height:100vh;
+	height:100%;
+	width:100%;
+	background-position: center center;
+	background-color:#152a34;
+	padding:70px 0px;
+}
+
+#portfolio-button{
+	position:relative;
+}
+
+#portfolio-button li{
+	list-style:none;
+	float:left;
+	padding:10px;
+	border:2px solid blue;
+	margin:10px;
+	color:white;
+	cursor:pointer;
+	max-width:150px;
+	width:100%;
+	text-align:center;
+}
+
+#portfolio-button li:first-child{
+	background:red;
+	border:2px solid red;
+}
+
+#portfolio-button li:hover{
+	background:blue;
+}
+
+#portfolio-button li:hover:first-child{
+	background:red;
+}
+
+.active{
+    background:blue;
+}
+
+.divImg{
+  position: relative;
+  overflow: hidden;
+}
+
+.divImg .caption{
+    height:100%;
+    width: 100%;
+	cursor: pointer;
+	position: absolute;
+    top:0;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform 0.35s ease;
+}
+
+.effect1:hover .caption{
+  transform: scaleY(1);
+}
+
+.caption-text{
+	z-index: 5;
+	color: #fff;
+    position: absolute;
+    width: 100%;
+    top: 50%;   
+    transform: translateY(-50%); 
+    text-align: center;
+	padding:5px;
+}
+
+.blur{
+	background-color: blue;
+	height: 100%;
+	width: 100%;
+    position: absolute;
+    top:0;
+}
+
+.square{
+    height: 100%;
+    width: 100%;  
+    outline: 2px solid white;
+    outline-offset: -10px;
+}
+
+.image-effect{
+	height:250px;
+}
+
+.filter{
+	margin:20px 0px;
+}
+
+.caption-text button{
+	border:2px solid white;
+	padding:10px;	
+	background:none;
+	border-radius:20px;
+}
+
+.caption-text button a{
+	text-decoration:none;
+	color:white;
+}
+
+.caption-text button:hover{
+	background:white;
+}
+
+.caption-text button:hover a{
+	text-decoration:none;
+	color:blue;
+}
+
+/*----------- Portfolio Section End Here -----------*/
+
+/*----------- Contact Me Section Start Here -----------*/
+
+#contact-me{
+	background-size:cover;
+	min-height:60vh;
+	height:100%;
+	width:100%;
+	background-position: center center;
+	padding:70px 0px;
+	background-color:#faebd8;
+}
+
+#contact-info-container{
+	position:relative;
+}
+
+#contact-info-wrap{
+	position:absolute;
+	top:0;
+	transform:translateY(50%);
+}
+
+#contact-info{
+	font-size:17px;
+}
+
+#massage input{
+	width:100%;
+	height:30px;
+	color:black;
+}
+
+#massage textarea{
+	width:100%;
+	color:black;
+}
+
+#submit-button{
+	background:#ff2a36;
+	color:white;
+	margin-top:20px;
+	font-weight:bold;
+	border:none;
+	padding:10px;
+	width:150px;
+	text-align:center;
+	border-radius:20px 0px 20px 0px;
+}
+
+.google-map{
+	width:100%;
+	margin-top:10px;
+}
+
+/*----------- Contact Me Section End Here -----------*/
+
+/*----------- Footer Start Here -----------*/
+
+footer{
+	background-size:cover;
+	min-height:60vh;
+	height:100%;
+	width:100%;
+	background-position: center center;
+	background-color:#3c3d41;
+	color:white;
+	position:relative;
+}
+
+#subscribe{
+    padding: 42px 0;
+    background: white;
+	color:black;
+}
+
+#subcrb-form{
+	margin-top:25px;
+}
+
+#subscribe .form-control {
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 0px;
+    border-color: black;
+    background: black;
+	color:white;
+    border-radius: 35px 0 0 35px;
+}
+
+#subscribe .input-group-btn {
+    border: 2px solid #ff2a36;
+    height: 50px;
+    border-radius: 0px 35px 35px 0;
+    padding: 0 28px;
+}
+
+#subscribe .input-group-btn .btn-secondary {
+    background: none;
+    border: none;
+	font-size:22px;
+	color:white;
+}
+
+#subscribe .input-group-btn:hover{
+	background:#ff2a36;
+}
+
+#subscribe .input-group-btn:hover, #subscribe .btn-secondary:hover, #subscribe .input-group-btn, #subscribe .btn-secondary:focus{
+	background: #ff2a36;
+	color:white;
+    border: none;
+}
+
+#footer-menu li{
+	list-style:none;
+}
+
+#footer-menu li a{
+	color:white;
+}
+
+#footer-button li{
+	list-style:none;
+	float:left;
+	width:50px;
+	height:50px;
+	border-radius:50px;
+	margin:10px;
+	position:relative;
+	overflow:hidden;
+	border:2px solid white;
+	cursor:pointer;
+}
+
+#footer-button li a{
+	font-size:25px;
+	position:absolute;
+	color:white;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+#footer-button li:before{
+	content:"";
+	width:100%;
+	height:100%;
+	top:100%;
+	left:0;
+	display:inline-block;
+	position:absolute;
+	transition: .5s;
+}
+
+#footer-button li:nth-child(1):before{
+	background-color:#3b5998;
+}
+
+#footer-button li:nth-child(2):before{
+	background-color:#55acee;
+}
+
+#footer-button li:nth-child(3):before{
+	background-color:#dd4b39;
+}
+
+#footer-button li:nth-child(4):before{
+	background-color:#00aff0;
+}
+
+#footer-button li:nth-child(5):before{
+	background-color:#01aef2;
+}
+
+#footer-button li:hover:before{
+	top:0%;
+}
+
+.footer-up h1{
+	border-bottom:5px solid #ff2a36;
+}
+
+#footer-section{
+	color:white;
+	position:absolute;
+	height:50px;
+	width:100%;
+	bottom:40px;
+	transform:translateY(50%);
+}
+
+#footer-section a{
+	color:white;
+}
+
+/*----------- Footer End Here -----------*/
